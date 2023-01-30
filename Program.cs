@@ -2,6 +2,6 @@
 //Например: 4 -> 16; -3 -> 9; -7 -> 49
 Console.Clear();
 Console.Write("Введите число:  ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 int quatro = number * number;
 Console.WriteLine($"Квадрат числа{number} равен {quatro}");
